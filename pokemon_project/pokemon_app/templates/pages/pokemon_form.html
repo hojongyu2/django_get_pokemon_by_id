@@ -1,0 +1,10 @@
+{% extends 'pages/index.html' %}
+{% block content %}
+
+    <form type='GET' action='get_pokemon'>
+        {% csrf_token %}
+        <input type='text' name='user_input' placeholder="type pokemon ID here">
+        <input type='submit'></input>
+    </form>
+
+{% endblock content %} 

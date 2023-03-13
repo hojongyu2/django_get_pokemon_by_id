@@ -1,0 +1,8 @@
+/* h1 {
+    color: aqua;
+} */
+
+#first_img {
+    display: flex;
+    flex-direction: column;
+}
